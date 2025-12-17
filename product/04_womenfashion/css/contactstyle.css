@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+/* h2{
+    margin: 10px 5px;
+} */
+.contact{
+    /* width: 1200px; */
+    /* height: 50vw; */
+    /* background-color: #0c1b24; */
+    color: #0c1b24;
+    font-weight: bold;
+    width: 100%;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 0px 30px;
+    border: 1px solid rgba(92, 92, 92, 0.2);
+    margin-left: 25%;
+    width: 50%;
+    background-color: #d70985;
+
+}
+.contact form input{
+    margin: 8px 5px;
+    height: 30px;
+    font-size: 1.6rem;
+    padding: 15px;
+    border: 1px solid #d70985;
+    border-radius: 4px;
+    background-color: #fefefe;
+}
+.contact form textarea{
+    margin: 8px 5px;
+    font-size: 1.6rem;
+    min-height: 200px;
+    padding: 15px;
+    background-color: #fefefe;
+    border: 1px solid #d70985;
+    border-radius: 4px;
+    resize: none;
+}
+.contact form button{
+    align-self: center;
+    padding: 8px 30px 8px 30px;
+    background-color: #fefefe;
+    color: #d70985;
+    border: 1px solid #0c1b24;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact form button:hover {
+    background-color: #7b084d;
+    color: #fff;
+}
+.contact p {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact{
+    /* margin: 2%; */
+    width: 100%;
+    }
+    .contact form{
+        margin-left: 2%;
+        width: 96%;
+    }    
+
+}
