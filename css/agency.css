@@ -370,7 +370,7 @@ fieldset[disabled] .btn-xl.active {
 }
 #mainNavs {
   background-color: #1c9294;
-  padding: 15px 0px;
+  padding: 5px 0px;
 }
 
 
@@ -383,7 +383,7 @@ header {
   /* #0c1b24 */
 }
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 50px;
   color: #ffffff;
   text-shadow: 2px 2px #09141a;
@@ -599,16 +599,8 @@ section h3.section-subheading {
   }
 }
 
-
-
-
-
-
-
-
-
 #wowslider-container1{
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 
