@@ -827,6 +827,14 @@ tr:nth-child(even) {
 .float-left {
   float: left;
 }
+.text-right {
+  text-align: right !important;
+  margin: 0px !important;
+}
+.text-left {
+  text-align: left !important;
+  margin: 0px !important;
+}
 .img-round-none {
   border-radius: 0px 0px 0px 0px;
   padding: 0px;
